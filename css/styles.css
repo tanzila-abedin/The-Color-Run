@@ -12,7 +12,6 @@
     --white-color: #fff; 
 }
 
-
 ul {
     list-style-type: none;
 }
@@ -49,6 +48,7 @@ p {
 .top-one h1 {
     font-size: 20px;
     font-weight: 600;
+    padding-top: 5rem;
 }
 
 .top-one h2 {
@@ -60,11 +60,13 @@ p {
 
 .top-two {
     padding: 5px 15px;
-    border: 1px solid #d3d3d3;
+    border: 4px solid white;
+    width : 50%
+
 }
 
 .top-two {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -141,7 +143,7 @@ p {
   .testimony h1 {
     text-align: center;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 200;
   }
   
   .testimony hr {
@@ -190,40 +192,6 @@ p {
     font-weight: 500;
   }
 
-
-
-/* header nav {
-    font-size: 14px;
-    background-color: white;
-    align-items: center;
-    padding: 5px 80px 5px 80px;
-}
-
-header nav a {
-    flex: 2;
-}
-
-header nav button {
-    color: #ec5242;
-    background-color: white;
-    border: 5px solid #ec5242;
-    width: 20%;
-    height: 50px;
-    margin: 0;
-}
-
-.desktop-nav ul {
-    display: flex;
-    flex: 3;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-}
-
- .desktop-nav a:hover {
-    color: var(--orange);
-} */
-
 /* desktop-view */
 
 @media (min-width: 768px) {
@@ -255,12 +223,112 @@ header nav button {
         margin: 0;
     }
 
+
+    .top-one h1 {
+      text-align: start;
+      font-weight:300;
+      font-size: 2.5rem;
+    }
+
+    .top-one h2 {
+      font-weight:400;
+      font-size: 2rem;
+    }
+
+    .top-three {
+    padding: 20px 15px 15px 15px;
+}
+
+    .back-drop {
+       background-image: url("/images/download.jpeg");
+   height: 100vh;
+   width: 100%;
+    }
+
+     .more-item {
+    display: flex;
+    align-items: center;
+    height: 210px;
+    /* margin: px 0; */
+    padding: 0;
+    background-color: rgba(90, 90, 90, 0.226);
+  }
+  
+
+    .more-wrap {
+      display: grid;
+      grid-template-columns: repeat(5, 18%);
+      justify-content: space-around;
+    }
+
+    .more-item {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+       column-gap: 0px;
+
+    }
+   
+
+  .more-item .fas {
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    flex: 1;
+  }
+  
+  .more-item h5 {
+    color: #ED5589;;
+    font-size: 15px;
+    flex: 2;
+  }
+  
+  .more-item p {
+    text-align: center;
+    font-size: 13px;
+    flex: 5;
+  }
+
+   h1 {
+     text-align: center;
+     font-size: 25px;
+    
+   }
+
+   .line {
+      border-top: solid 3px var(--orange) ;
+        width: 5%;
+        height: 1px;
+        margin: 5px auto 15px auto;
+   }
+
+   .learn-more {
+     height: 70vh;
+   }
+
+
+  .player-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .color-player img {
+    width: 90px;
+    height: 90px;
+  }
     .desktop-nav {
         flex: 3;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
 
+    .desktop-nav a:hover {
+      color: var(--orange);
     }
 
     a:hover {
@@ -271,27 +339,52 @@ header nav button {
 
     .footer-one {
         padding: 40px 0 20px 0;
+        height: 40vh;
+        box-shadow: 2px 6px 5px #cec5c5;
       }
+
+      .footer-one {
+        background-color: var(--dark-color);
+      }
+
       .footer-one h1 {
+        color: rgb(211,211,211);
+        text-align: center;
         font-size: 26px;
         font-weight: 400;
-      }
+        padding-bottom: 0px;
+    
+      } 
+
       .footer-one hr {
         width: 5%;
         height: 3px;
         margin: 30px auto;
       }
-      .footer-one .fab {
-        font-size: 40px;
-      }
+
+
       .footer-one .top-partner,
       .footer-one .middle-partner {
         padding-bottom: 35px;
       }
 
-      .partners-desktop-imh a {
+      .partners-desktop-img {
+        border-top: solid 3px var(--orange) ;
+        width: 5%;
+        height: 1px;
+        margin: 5px auto 15px auto;
+      }
+
+      .partners-desktop-img a {
         padding: 0;
         margin: 20px;
+     }
+
+
+      .partners-desktop-img .fab {
+        filter: grayscale(100%);
+        width: 8rem;
+        padding-top: 30px;
      }
 
       .top-partner a:hover,
@@ -299,8 +392,12 @@ header nav button {
         color: #ED5589;
     }
 
+    .footer-two {
+      height: 20vh;
+    }
+
       .footer-two img {
-        width: 15%;
+        width: 50%;
     }
     
       .footer-two .copyright p {
