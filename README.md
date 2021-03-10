@@ -1,44 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# The COLOR RUN , CAPSTONE PROJECT ONE.
 
-> One paragraph statement about the project.
+> Its an Event website, where you can find out about the event and buy tickets for the event
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- Bootstrap 5
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/)
 
 
 ## Authors
@@ -48,12 +23,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/tanzila-abedin)
 - Twitter: [@twitterhandle](https://twitter.com/TanzilaAbedin)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tanzila-abedin-331440b2/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
