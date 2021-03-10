@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/)
 
 
 ## Authors
