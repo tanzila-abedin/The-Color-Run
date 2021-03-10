@@ -4,7 +4,7 @@
 
 > Its an Event website, where you can find out about the event and buy tickets for the event
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/go-fullpage1.png)
 
 ## Built With
 
