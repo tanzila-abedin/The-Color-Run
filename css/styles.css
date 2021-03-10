@@ -324,7 +324,9 @@ p {
     justify-content: center;
   }
 
-  .h1 {
+  .testimony h1,
+  .meal h1,
+  .uppercase h1 {
     text-align: center;
     font-size: 25px;
   }
