@@ -29,7 +29,7 @@
     font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: "cocogoose",sans-serif;
+    font-family: "cocogoose", sans-serif;
   }
 
   .top-lower-section-about a:hover {
@@ -82,14 +82,14 @@
     padding: 10px 30px;
     cursor: pointer;
     background: var(--primary-color);
-    color: #ED5589;
+    color: #ed5589;
     border: none;
     border-radius: 5px;
   }
 
   .btn-outline {
     background-color: transparent;
-    border: 1px #ED5589 solid;
+    border: 1px #ed5589 solid;
   }
 
   .btn:hover {
