@@ -1,54 +1,39 @@
-@media(min-width: 768px){
-
-.menu-one ,
-.menu-two {
-     text-align: center;
-     height: 30vh;
-     width: 800px;
-}
-
-.color-ticket {;
-     text-align: center;
-     width: 800px;
-    
-}
-
-.price {
-     color: #ED5589;
-     font-weight: bold;
-}
-
-.border {
-     border-style: dashed;
-}
-
-.back-drop {
-     height: 70vh;
-     box-shadow: none;
-}
-
-
-.submit-btn {
-  display: inline-block;
-  padding: 10px 30px;
-  cursor: pointer;
-  background: #ED5589;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-.submit-btn:hover {
-  transform: scale(0.98);
-}
-
-hr {
-    color: #ED5589;
-    width: 5%;
-    margin: 5px auto 15px auto;
-}
-
-
-
-
+@media (min-width: 768px) {
+     .menu-one , .menu-two {
+         text-align: center;
+         height: 30vh;
+         width: 800px;
+    }
+     .color-ticket {
+         text-align: center;
+         width: 800px;
+    }
+     .price {
+         color: #ED5589;
+         font-weight: bold;
+    }
+     .border {
+         border-style: dashed;
+    }
+     .back-drop {
+         height: 70vh;
+         box-shadow: none;
+    }
+     .submit-btn {
+         display: inline-block;
+         padding: 10px 30px;
+         cursor: pointer;
+         background: #ED5589;
+         color: white;
+         border: none;
+         border-radius: 5px;
+    }
+     .submit-btn:hover {
+         transform: scale(0.98);
+    }
+     hr {
+         color: #ED5589;
+         width: 5%;
+         margin: 5px auto 15px auto;
+    }
 }
