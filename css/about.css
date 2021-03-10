@@ -49,13 +49,7 @@
     .mid-lower-section {
         height: 80vh;
          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.925);
-}
-
-    }
-
-    .giving-icon {
-      
-    }
+     }
      
     .giving-icon img {
         padding-top: 80px;
@@ -85,14 +79,14 @@
   color: #ED5589;
   border: none;
   border-radius: 5px;
-}
+ }
 
-.btn-outline {
+  .btn-outline {
   background-color: transparent;
   border: 1px #ED5589 solid;
-}
+  }
 
-.btn:hover {
+ .btn:hover {
   transform: scale(0.98);
 }
 
@@ -109,7 +103,7 @@
   grid-column: 1,span 1;
 }
 
-.lg-div-peer-background {
+ .lg-div-peer-background {
   background-image: url("/images/carnival-2.jpeg"); /* The image used */
   box-shadow: inset 0 0 0 1000px #ec524280;/* Used if the image is unavailable */
   width: 90%;
@@ -118,7 +112,7 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
   justify-self: start;
-}
+ }
 
 .about-images {
     display: grid;
@@ -154,6 +148,6 @@ footer .footer-img {
 
 .copyright {
     color: white;
-}
+ }
   
 }
