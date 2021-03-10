@@ -35,11 +35,9 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [CreativeCommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
