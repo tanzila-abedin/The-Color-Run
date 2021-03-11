@@ -2,7 +2,7 @@
 
 # The COLOR RUN , CAPSTONE PROJECT ONE.
 
-> Its an Event website, where you can find out about the event and buy tickets for the event
+> Responsive Conference/Event web page.
 
 ![screenshot](./images/go-fullpage1.png)
 
@@ -10,11 +10,14 @@
 
 - HTML & CSS
 - Bootstrap 5
+- Scss
 
 ## Live Demo
 
 [Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/)
 
+## Run tests
+npx hint . is used fot HTML & npx stylelint "**/*.{css,scss}" is used for CSS.
 
 ## Authors
 
