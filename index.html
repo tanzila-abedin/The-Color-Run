@@ -14,7 +14,7 @@
 
 <body>
 	<header class="home py-0">
-		<div class="top-bar d-none d-md-flex"> <a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#">English</a> <a href="#">My Page</a> <a class="logout" href="#">Logout</a> </div>
+		<div class="top-bar d-flex flex-row justify-content-evenly  d-md-flex justify-content-md-end"> <a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#">English</a> <a href="#">My Page</a> <a class="logout mt-1 p-0 px-md-4" href="#">Logout</a> </div>
 		<!-- Navbar -->
 		<!-- <div class="container"> -->
 		<nav class="d-md-flex justify-content-around container">
@@ -27,7 +27,7 @@
 		</nav>
 		<div class="back-drop">
 			<div class="container">
-				<div class="top-one pb-lg-3">
+				<div class="top-one pt-md-5 pb-lg-3">
 					<h1>"Hi! Sharing World"</h1>
 					<h2>RUN (OR WALK) THROUGH RAINBOWS
                 <br> Grab your friends and family
@@ -77,8 +77,13 @@
 			</div>
 			<div class="buy-btn d-md-flex justify-content-md-center pt-md-5"> <a href="/tickets.html" class="btn btn-dark">BUY A TICKET NOW!</a> </div>
 		</div>
-		<div class="testimoy">
+		<div class="text-center">
 			<h1>Testimonials</h1>
+			</div>
+		<div class="testimoy">
+			<!-- <div class="text-center">
+			<h1>Testimonials</h1>
+			</div> -->
 			<div class="line"></div>
 			<div class="player-wrap container">
 				<div class="player-one my-md-2">
@@ -128,24 +133,26 @@
 			</div>
 		</div>
 	</main>
-	<footer>
-		<div class="footer-one">
+    <footer class="text-center d-md-none">
+
+	<p>
+     <a class="btn btn-primary " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> SEE MORE </a> </p>
+	<div class="collapse" id="collapseExample">
+		<h1 class="text-center">Partner</h1>
+		<div class="footer-one bg-dark ">
 			<div class="container">
-				<h1>Partner</h1>
 				<div class="partners-img d-md-none">
 					<div class="top-partner">
 						<a href="#"><img class="fab" src="./images/partners/partners_1.png" alt=""></a>
 						<a href="#"><img class="fab" src="./images/partners/partners_2.png" alt=""></a>
 						<a href="#"><img class="fab" src="./images/partners/partners_3.png" alt=""></a>
 					</div>
-					<hr>
 					<div class="middle-partner">
 						<a href="#"><img class="fab" src="./images/partners/partners_4.png" alt=""></a>
 						<a href="#"><img class="fab" src="./images/partners/partners_5.png" alt=""></a>
 					</div>
 				</div>
-				<div class="partners-desktop-img d-none d-md-flex 
-            justify-content-center">
+				<div class="partners-desktop-img d-none d-md-flex justify-content-center">
 					<a href="#"><img class="fab" src="./images/partners/partners_1.png" alt=""></a>
 					<a href="#"><img class="fab" src="./images/partners/partners_2.png" alt=""></a>
 					<a href="#"><img class="fab" src="./images/partners/partners_3.png" alt=""></a>
@@ -154,16 +161,59 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-two container">
+		<div class="footer-two text-center container">
 			<div class="row">
-				<div class=" col-lg-4 d-lg-flex justify-content-lg-center mt-lg-3"> <img class="footer-img" src="https://thecolorrun.co.za/wp-content/uploads/logo-tcr-header.png" title="The Color Run™ – South Africa" alt="The Color Run™ – South Africa"> </div>
-				<div class="copyright col-lg-6 py-lg-4">
-					<p>© 2011-2021 The Color Run™, All Rights Reserved.</p>
-					<p>The Color Run™ is a product of Bigsley™ Event House, a leading creator of experiential events including Pumpkin Nights™ and Hall of Breakfast™.</p>
+				<div class="col-12 col-lg-4 d-lg-flex justify-content-lg-center mt-lg-3"> <img class="footer-img col-6 pt-2" src="https://thecolorrun.co.za/wp-content/uploads/logo-tcr-header.png" title="The Color Run™ – South Africa" alt="The Color Run™ – South Africa"> </div>
+				<div class="copyright col-12 col-lg-6 py-lg-4">
+					<p class="pb-0">© 2011-2021 The Color Run™, All Rights Reserved.</p>
+					<p class="p-0 m-0">The Color Run™ is a product of Bigsley™ Event House, a leading creator of experiential events including Pumpkin Nights™ and Hall of Breakfast™.</p>
 				</div>
 			</div>
 		</div>
+		<div>
+		</div>
+	</div>
 	</footer>
+	 <footer class="d-none d-md-block">
+		<h1 class="text-center">Partner</h1>
+		<div class="footer-one bg-dark ">
+			<div class="container">
+				<div class="partners-img d-md-none">
+					<div class="top-partner">
+						<a href="#"><img class="fab" src="./images/partners/partners_1.png" alt=""></a>
+						<a href="#"><img class="fab" src="./images/partners/partners_2.png" alt=""></a>
+						<a href="#"><img class="fab" src="./images/partners/partners_3.png" alt=""></a>
+					</div>
+					<div class="middle-partner">
+						<a href="#"><img class="fab" src="./images/partners/partners_4.png" alt=""></a>
+						<a href="#"><img class="fab" src="./images/partners/partners_5.png" alt=""></a>
+					</div>
+				</div>
+				<div class="partners-desktop-img d-none d-md-flex justify-content-center">
+					<a href="#"><img class="fab" src="./images/partners/partners_1.png" alt=""></a>
+					<a href="#"><img class="fab" src="./images/partners/partners_2.png" alt=""></a>
+					<a href="#"><img class="fab" src="./images/partners/partners_3.png" alt=""></a>
+					<a href="#"><img class="fab" src="./images/partners/partners_4.png" alt=""></a>
+					<a href="#"><img class="fab" src="./images/partners/partners_5.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-two text-center container">
+			<div class="row">
+				<div class="col-12 col-lg-4 d-lg-flex justify-content-lg-center mt-lg-3"> <img class="footer-img" src="https://thecolorrun.co.za/wp-content/uploads/logo-tcr-header.png" title="The Color Run™ – South Africa" alt="The Color Run™ – South Africa"> </div>
+				<div class="copyright col-12 col-lg-6 pt-3">
+					<p class="pb-0">© 2011-2021 The Color Run™, All Rights Reserved.</p>
+					<p class="p-0 m-0">The Color Run™ is a product of Bigsley™ Event House, a leading creator of experiential events including Pumpkin Nights™ and Hall of Breakfast™.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+		</div>
+	</footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/afced7e812.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -27,6 +27,13 @@ p {
   margin: 10px 0;
 }
 
+.back-drop {
+  background-image: url("/images/download.jpeg");
+  height: 75vh;
+  width: 100%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.623);
+}
+
 .top-bar {
   background-color: var(--dark-color);
   justify-content: flex-end;
@@ -36,6 +43,10 @@ p {
   font-size: 16px;
   color: var(--white-color);
   padding: 5px 8px;
+}
+
+.top-bar a:hover {
+  color: #ed5589;
 }
 
 .top-bar .logout {
@@ -50,7 +61,6 @@ p {
 .top-one h1 {
   font-size: 20px;
   font-weight: 600;
-  padding-top: 5rem;
 }
 
 .top-one h2 {
@@ -63,9 +73,9 @@ p {
 .top-two {
   padding: 5px 15px;
   border: 4px solid white;
-  width: 50%;
   font-size: 14px;
   font-weight: 600;
+  margin-right: 0;
 }
 
 .top-three {
@@ -197,6 +207,16 @@ p {
   justify-content: center;
 }
 
+.partners-img .fab,
+.middle-partner .fab {
+  width: 30%;
+  padding: 5px;
+}
+
+.footer-two img {
+  width: 30%;
+}
+
 /* desktop-view */
 
 @media (min-width: 768px) {
@@ -253,7 +273,7 @@ p {
 
   .back-drop {
     background-image: url("/images/download.jpeg");
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.623);
   }

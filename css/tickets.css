@@ -1,3 +1,46 @@
+@media (max-width: 768px) {
+  .ticket-drop hr,
+  .meal hr {
+    color: #ed5589;
+    width: 20%;
+    height: 2px;
+    margin: 5px auto 15px auto;
+  }
+
+  .ticket-drop {
+    box-shadow: none;
+  }
+
+  .submit-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #ed5589;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+  }
+
+  .submit-btn:hover {
+    transform: scale(0.98);
+  }
+
+  .menu-two {
+    text-align: center;
+  }
+
+  .footer-img {
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  .copyright p {
+    font-size: 12px;
+    color: white;
+  }
+}
+
 @media (min-width: 768px) {
   .menu-one,
   .menu-two {
@@ -20,9 +63,11 @@
     border-style: dashed;
   }
 
-  .back-drop {
-    height: 70vh;
-    box-shadow: none;
+  .ticket-drop {
+    background-image: url("/images/download.jpeg");
+    height: 60vh;
+    width: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.623);
   }
 
   .submit-btn {
