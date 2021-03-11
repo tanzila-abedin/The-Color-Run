@@ -16,6 +16,20 @@
 
 [Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/)
 
+## Requirements
+
+1. Nodejs for the linters and the sass compiler
+
+## Getting Started 
+To get a local copy up and running follow these simple example steps.
+
+1. Go to https://github.com/tanzila-abedin/The-Color-Run
+2. Click on the code and copy the HTML code.
+3. Use terminal to clone this repository on your local machine.
+4. Run `git checkout -b your-branch-name`. Make your contributions
+5. Push your branch up to your forked repository
+6. Open a Pull Request with a detailed description of the development branch of the original project for a review
+
 ## Run tests
 npx hint . is used fot HTML & npx stylelint "**/*.{css,scss}" is used for CSS.
 
