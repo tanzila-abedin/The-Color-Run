@@ -4,7 +4,9 @@
 
 > Responsive Conference/Event web page.
 
-![screenshot](./images/go-fullpage1.png)
+| Homepage | Search result page| 
+| --- | --- |
+| ![](./images/go-fullpage1.png) | ![](./images/Gofull-mobile.png)
 
 ## Built With
 
