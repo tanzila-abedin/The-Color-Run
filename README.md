@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/)
+[Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/.)
 
 ## Run tests
 npx hint . is used fot HTML & npx stylelint "**/*.{css,scss}" is used for CSS.
