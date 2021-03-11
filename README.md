@@ -4,7 +4,9 @@
 
 > Responsive Conference/Event web page.
 
-![screenshot](./images/go-fullpage1.png)
+| Homepage | Search result page| 
+| --- | --- |
+| ![](./images/go-fullpage1.png) | ![](./images/Gofull-mobile.png)
 
 ## Built With
 
@@ -14,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/)
+[Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/.)
 
 ## Run tests
 npx hint . is used fot HTML & npx stylelint "**/*.{css,scss}" is used for CSS.
