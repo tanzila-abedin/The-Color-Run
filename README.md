@@ -6,7 +6,7 @@
 
 | Homepage | Search result page| 
 | --- | --- |
-| ![](./images/go-fullpage1.png) | ![](./images/Gofull-mobile.png)
+| ![](./images/go-fullpage1.png) | ![](./images/GOfull-mobile.png)
 
 ## Built With
 
