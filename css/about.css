@@ -1,3 +1,11 @@
+:root {
+  --dark-color: #3e3e3e;
+  --black: rgb(39, 42, 49);
+  --orange: #ec5242;
+  --light-color: rgb(247, 247, 247);
+  --white-color: #fff;
+}
+
 @media (max-width: 768px) {
   .about-back-drop {
     background-image: url("/images/about-color.jpg.jpg");
@@ -66,15 +74,23 @@
     justify-self: start;
   }
 
+  .lg-div-html-background a,
+  .lg-div-peer-background a {
+    text-align: center;
+    padding-top: 7rem;
+    color: white;
+    font-weight: 800;
+  }
+
   .top-lower-section-about a:hover {
-    text-decoration: underline 5px solid #ed5589;
-    color: #ed5589;
+    text-decoration: underline 5px solid #ec5242;
+    color: var(--orange);
   }
 
   .about-back-drop hr,
   .mid-top-section hr,
   .mid-lower-section hr {
-    color: #ed5589;
+    color: var(--orange);
     width: 20%;
     height: 2px;
     margin: 5px auto 15px auto;
@@ -96,7 +112,7 @@
   .about-back-drop hr,
   .mid-top-section hr,
   .mid-lower-section .down-line {
-    color: #ed5589;
+    color: var(--orange);
     width: 10%;
     height: 3px;
     margin: 5px auto 15px auto;
@@ -116,7 +132,7 @@
   }
 
   .top-lower-section-about a:hover {
-    text-decoration: underline 5px solid #ed5589;
+    text-decoration: underline 5px solid #ec5242;
     color: white;
   }
 
@@ -165,14 +181,14 @@
     padding: 10px 30px;
     cursor: pointer;
     background: var(--primary-color);
-    color: #ed5589;
+    color: var(--orange);
     border: none;
     border-radius: 5px;
   }
 
   .btn-outline {
     background-color: transparent;
-    border: 1px #ed5589 solid;
+    border: 1px #ec5242 solid;
   }
 
   .btn:hover {
@@ -181,7 +197,7 @@
 
   .lg-div-html-background {
     background-image: url("/images/carnival-1.jpeg");
-    box-shadow: inset 0 0 0 1000px #ec524280;
+    box-shadow: inset 0 0 0 1000px #ec6859ab;
     width: 90%;
     height: 250px;
     background-position: center;
@@ -194,7 +210,7 @@
 
   .lg-div-peer-background {
     background-image: url("/images/carnival-2.jpeg");
-    box-shadow: inset 0 0 0 1000px #ec524280;
+    box-shadow: inset 0 0 0 1000px #db6456ab;
     width: 90%;
     height: 250px;
     background-position: center;
@@ -209,12 +225,9 @@
     column-gap: 20px;
   }
 
-  .lg-div-html-background h1,
-  .lg-div-peer-background h1 {
-    text-align: center;
-    padding-top: 7rem;
-    color: white;
-    font-weight: 800;
+  .lg-div-html-background a:hover,
+  .lg-div-peer-background a:hover {
+    color: #ec5242;
   }
 
   .footer-color {

@@ -9,9 +9,19 @@
 :root {
   --dark-color: #3e3e3e;
   --black: rgb(39, 42, 49);
-  --orange: #ed5589;
+  --orange: #ec5242;
   --light-color: rgb(247, 247, 247);
   --white-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul {
@@ -46,7 +56,7 @@ p {
 }
 
 .top-bar a:hover {
-  color: #ed5589;
+  color: var(--orange);
 }
 
 .top-bar .logout {
@@ -110,7 +120,7 @@ p {
 }
 
 .learn-more hr {
-  color: #ed5589;
+  color: var(--orange);
   width: 20%;
   height: 2px;
   margin: 5px auto 15px auto;
@@ -132,7 +142,7 @@ p {
 }
 
 .more-item h5 {
-  color: #ed5589;
+  color: var(--orange);
   font-size: 10px;
   flex: 2;
 }
@@ -150,7 +160,7 @@ p {
 }
 
 .testimony hr {
-  color: #ec5242;
+  color: var(--orange);
   width: 20%;
   height: 2px;
   margin: 5px auto 15px auto;
@@ -217,8 +227,6 @@ p {
   width: 30%;
 }
 
-/* desktop-view */
-
 @media (min-width: 768px) {
   header {
     color: var(--dark-color);
@@ -249,11 +257,11 @@ p {
 
   .partners-desktop-img a {
     padding: 0;
-    margin: 20px;
+    margin: 8%;
   }
 
   .top-bar a:hover {
-    color: #ed5589;
+    color: var(--orange);
   }
 
   .top-one h1 {
@@ -273,7 +281,7 @@ p {
 
   .back-drop {
     background-image: url("/images/download.jpeg");
-    height: 75vh;
+    height: auto;
     width: 100%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.623);
   }
@@ -306,7 +314,7 @@ p {
   }
 
   .more-item h5 {
-    color: #ed5589;
+    color: var(--orange);
     font-size: 15px;
     flex: 2;
   }
@@ -382,7 +390,7 @@ p {
 
   .desktop-nav a:hover {
     color: var(--orange);
-    border-bottom: 2px #ed5589 solid;
+    border-bottom: 2px #ec5242 solid;
   }
 
   /* footer  */
@@ -434,7 +442,7 @@ p {
 
   .top-partner a :hover,
   .middle-partner a:hover {
-    color: #ed5589;
+    color: var(--orange);
   }
 
   .footer-two {

@@ -1,7 +1,15 @@
+:root {
+  --dark-color: #3e3e3e;
+  --black: rgb(39, 42, 49);
+  --orange: #ec5242;
+  --light-color: rgb(247, 247, 247);
+  --white-color: #fff;
+}
+
 @media (max-width: 768px) {
   .ticket-drop hr,
   .meal hr {
-    color: #ed5589;
+    color: var(--orange);
     width: 20%;
     height: 2px;
     margin: 5px auto 15px auto;
@@ -15,7 +23,7 @@
     display: inline-block;
     padding: 10px 30px;
     cursor: pointer;
-    background: #ed5589;
+    background: var(--orange);
     color: white;
     border: none;
     border-radius: 5px;
@@ -55,7 +63,7 @@
   }
 
   .price {
-    color: #ed5589;
+    color: var(--orange);
     font-weight: bold;
   }
 
@@ -74,7 +82,7 @@
     display: inline-block;
     padding: 10px 30px;
     cursor: pointer;
-    background: #ed5589;
+    background: var(--orange);
     color: white;
     border: none;
     border-radius: 5px;
@@ -85,7 +93,7 @@
   }
 
   hr {
-    color: #ed5589;
+    color: var(--orange);
     width: 5%;
     margin: 5px auto 15px auto;
   }
