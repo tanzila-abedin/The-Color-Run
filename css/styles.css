@@ -224,7 +224,11 @@ p {
 }
 
 .footer-two img {
-  width: 30%;
+  margin: 2% auto;
+}
+
+.footer-two .copyright p {
+  font-size: 12px;
 }
 
 @media (min-width: 768px) {
@@ -449,11 +453,7 @@ p {
     height: 20vh;
   }
 
-  .footer-two img {
-    width: 50%;
-  }
-
   .footer-two .copyright p {
-    font-size: 16px;
+    font-size: 14px;
   }
 }

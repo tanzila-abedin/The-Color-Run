@@ -74,8 +74,8 @@
     justify-self: start;
   }
 
-  .lg-div-html-background a,
-  .lg-div-peer-background a {
+  .div-peer-background a,
+  .div-html-background a {
     text-align: center;
     padding-top: 7rem;
     color: white;
@@ -100,8 +100,8 @@
 @media (min-width: 768px) {
   .about-back-drop {
     background-image: url("/images/about-color.jpg.jpg");
-    height: 80vh;
-    width: 1350px;
+    height: 70vh;
+    width: 100%;
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-position: center;
@@ -131,6 +131,13 @@
     font-family: "cocogoose", sans-serif;
   }
 
+  .lg-div-html-background a,
+  .lg-div-peer-background a {
+    text-align: center;
+    padding-top: 7rem;
+    color: white;
+  }
+
   .top-lower-section-about a:hover {
     text-decoration: underline 5px solid #ec5242;
     color: white;
@@ -147,7 +154,7 @@
   }
 
   .giving-icon img {
-    padding-top: 80px;
+    padding-top: 2%;
     width: 8%;
     position: relative;
     animation-name: example;
@@ -238,8 +245,15 @@
 
   footer .footer-img {
     padding-top: 0%;
-    width: 30%;
-    height: 100%;
+    width: 6%;
+    height: auto;
+  }
+
+  .footer-two .copyright p {
+    color: #fff;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
   }
 
   .copyright {
