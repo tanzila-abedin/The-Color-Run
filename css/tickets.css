@@ -64,7 +64,7 @@
   }
 
   .ticket-drop {
-    background-image: url("./images/download.jpeg");
+    background-image: url("/images/download.jpeg");
     height: 60vh;
     width: 100%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.623);
