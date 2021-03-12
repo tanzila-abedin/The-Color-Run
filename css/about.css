@@ -1,13 +1,17 @@
 @media (max-width: 768px) {
   .about-back-drop {
     background-image: url("/images/about-color.jpg.jpg");
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.699);
+  }
+
+  .back-drop-text {
+    font-size: 14px;
   }
 
   .top-lower-section-about a {
