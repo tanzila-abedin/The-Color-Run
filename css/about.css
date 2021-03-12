@@ -1,0 +1,262 @@
+:root {
+  --dark-color: #3e3e3e;
+  --black: rgb(39, 42, 49);
+  --orange: #ec5242;
+  --light-color: rgb(247, 247, 247);
+  --white-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .about-back-drop {
+    background-image: url("/images/about-color.jpg.jpg");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.699);
+  }
+
+  .back-drop-text {
+    font-size: 14px;
+  }
+
+  .top-lower-section-about a {
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 10px;
+  }
+
+  .footer-img {
+    width: 20%;
+    padding-top: 25px;
+  }
+
+  .copyright p {
+    font-size: 12px;
+    color: black;
+  }
+
+  .giving-icon img {
+    padding: 20px 0;
+    width: 15%;
+  }
+
+  .div-html-background h1,
+  .div-peer-background h1 {
+    padding-top: 6rem;
+  }
+
+  .div-html-background {
+    background-image: url("/images/carnival-1.jpeg");
+    box-shadow: inset 0 0 0 1000px #ec524280;
+    width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 10px;
+    justify-self: end;
+  }
+
+  .div-peer-background {
+    background-image: url("/images/carnival-2.jpeg");
+    box-shadow: inset 0 0 0 1000px #ec524280;
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    margin: 20px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-self: start;
+  }
+
+  .div-peer-background a,
+  .div-html-background a {
+    text-align: center;
+    padding-top: 7rem;
+    color: white;
+    font-weight: 800;
+  }
+
+  .top-lower-section-about a:hover {
+    text-decoration: underline 5px solid #ec5242;
+    color: var(--orange);
+  }
+
+  .about-back-drop hr,
+  .mid-top-section hr,
+  .mid-lower-section hr {
+    color: var(--orange);
+    width: 20%;
+    height: 2px;
+    margin: 5px auto 15px auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-back-drop {
+    background-image: url("/images/about-color.jpg.jpg");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.699);
+  }
+
+  .about-back-drop hr,
+  .mid-top-section hr,
+  .mid-lower-section .down-line {
+    color: var(--orange);
+    width: 10%;
+    height: 3px;
+    margin: 5px auto 15px auto;
+  }
+
+  .back-drop-text {
+    background-color: rgba(255, 255, 255, 0.801);
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .top-section-about h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "cocogoose", sans-serif;
+  }
+
+  .lg-div-html-background a,
+  .lg-div-peer-background a {
+    text-align: center;
+    padding-top: 7rem;
+    color: white;
+  }
+
+  .top-lower-section-about a:hover {
+    text-decoration: underline 5px solid #ec5242;
+    color: white;
+  }
+
+  .mid-top-section,
+  .mid-lower-section {
+    text-align: center;
+  }
+
+  .mid-lower-section {
+    height: 80vh;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.925);
+  }
+
+  .giving-icon img {
+    padding-top: 2%;
+    width: 8%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+  }
+
+  @keyframes example {
+    0% {
+      top: 0;
+    }
+
+    50% {
+      bottom: 75px;
+    }
+
+    75% {
+      bottom: 60px;
+    }
+
+    100% {
+      bottom: 45px;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--orange);
+    border: none;
+    border-radius: 5px;
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    border: 1px #ec5242 solid;
+  }
+
+  .btn:hover {
+    transform: scale(0.98);
+  }
+
+  .lg-div-html-background {
+    background-image: url("/images/carnival-1.jpeg");
+    box-shadow: inset 0 0 0 1000px #ec6859ab;
+    width: 90%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 10px;
+    justify-self: end;
+    grid-column: 1/ span 1;
+  }
+
+  .lg-div-peer-background {
+    background-image: url("/images/carnival-2.jpeg");
+    box-shadow: inset 0 0 0 1000px #db6456ab;
+    width: 90%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-self: start;
+  }
+
+  .about-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+
+  .lg-div-html-background a:hover,
+  .lg-div-peer-background a:hover {
+    color: #ec5242;
+  }
+
+  .footer-color {
+    background-color: #3e3e3e;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  footer .footer-img {
+    padding-top: 0%;
+    width: 6%;
+    height: auto;
+  }
+
+  .footer-two .copyright p {
+    color: #fff;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .copyright {
+    color: white;
+  }
+}

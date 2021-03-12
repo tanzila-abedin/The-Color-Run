@@ -1,45 +1,39 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# The COLOR RUN , CAPSTONE PROJECT ONE.
 
-> One paragraph statement about the project.
+> Responsive Conference/Event web page.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+| Homepage | Search result page| 
+| --- | --- |
+| ![](./images/GO-desktop.png) | ![](./images/GO-Tablet.png)  | ![](./images/GO-mobile.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- Bootstrap 5
+- Scss
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://tanzila-abedin.github.io/The-Color-Run/.)
 
+## Requirements
 
-## Getting Started
+1. Nodejs for the linters and the sass compiler
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
+## Getting Started 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+1. Go to https://github.com/tanzila-abedin/The-Color-Run
+2. Click on the code and copy the HTML code.
+3. Use terminal to clone this repository on your local machine.
+4. Run `git checkout -b your-branch-name`. Make your contributions
+5. Push your branch up to your forked repository
+6. Open a Pull Request with a detailed description of the development branch of the original project for a review
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+## Run tests
+npx hint . is used fot HTML & npx stylelint "**/*.{css,scss}" is used for CSS.
 
 ## Authors
 
@@ -49,28 +43,14 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/TanzilaAbedin)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tanzila-abedin-331440b2/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [CreativeCommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
