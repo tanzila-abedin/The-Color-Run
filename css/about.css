@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .about-back-drop {
-    background-image: url("/images/about-color.jpg.jpg");
+    background-image: url("./images/about-color.jpg.jpg");
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat, repeat;
@@ -40,7 +40,7 @@
   }
 
   .div-html-background {
-    background-image: url("/images/carnival-1.jpeg");
+    background-image: url("./images/carnival-1.jpeg");
     box-shadow: inset 0 0 0 1000px #ec524280;
     width: 80%;
     height: 250px;
@@ -54,7 +54,7 @@
   }
 
   .div-peer-background {
-    background-image: url("/images/carnival-2.jpeg");
+    background-image: url("./images/carnival-2.jpeg");
     box-shadow: inset 0 0 0 1000px #ec524280;
     width: 80%;
     height: 250px;
@@ -83,7 +83,7 @@
 
 @media (min-width: 768px) {
   .about-back-drop {
-    background-image: url("/images/about-color.jpg.jpg");
+    background-image: url("./images/about-color.jpg.jpg");
     height: 80vh;
     width: 1350px;
     background-repeat: no-repeat, repeat;
@@ -180,7 +180,7 @@
   }
 
   .lg-div-html-background {
-    background-image: url("/images/carnival-1.jpeg");
+    background-image: url("./images/carnival-1.jpeg");
     box-shadow: inset 0 0 0 1000px #ec524280;
     width: 90%;
     height: 250px;
@@ -193,7 +193,7 @@
   }
 
   .lg-div-peer-background {
-    background-image: url("/images/carnival-2.jpeg");
+    background-image: url("./images/carnival-2.jpeg");
     box-shadow: inset 0 0 0 1000px #ec524280;
     width: 90%;
     height: 250px;

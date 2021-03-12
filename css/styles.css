@@ -28,7 +28,7 @@ p {
 }
 
 .back-drop {
-  background-image: url("/images/download.jpeg");
+  background-image: url("./images/download.jpeg");
   height: 75vh;
   width: 100%;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.623);
@@ -272,7 +272,7 @@ p {
   }
 
   .back-drop {
-    background-image: url("/images/download.jpeg");
+    background-image: url("./images/download.jpeg");
     height: 75vh;
     width: 100%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.623);
