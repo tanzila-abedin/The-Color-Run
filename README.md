@@ -43,12 +43,6 @@ npx hint . is used fot HTML & npx stylelint "**/*.{css,scss}" is used for CSS.
 - Twitter: [@twitterhandle](https://twitter.com/TanzilaAbedin)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tanzila-abedin-331440b2/)
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
