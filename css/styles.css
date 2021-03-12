@@ -340,7 +340,7 @@ p {
 
   .btn {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 2px 30px;
     cursor: pointer;
     background: var(--orange);
     color: #fff;
